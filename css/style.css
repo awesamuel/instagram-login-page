@@ -33,7 +33,7 @@ body {
 }
 
 .phone img {
-    height: rem;
+    height: 40rem;
 }
 
 .login {
@@ -134,13 +134,13 @@ body {
 
 /* Media Queries */
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
     .wrapper {
         width: 90%;
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 720px) {
     body {
         background-color: #fff;
     }
@@ -156,8 +156,13 @@ body {
     .login {
         width: 100%;
     }
+
+    .group {
+        border: 1px solid transparent;
+    }
+    
+    .download {
+        width: 80%;
+    }
 }
 
-.group {
-    border: 1px solid transparent;
-}
